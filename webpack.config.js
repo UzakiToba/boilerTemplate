@@ -8,18 +8,8 @@ const CaseSensitivePathsPlugin = require('case-sensitive-paths-webpack-plugin');
 const src = path.resolve(__dirname, 'src');
 
 module.exports = {
-  mode: 'production',
   // ビルドの対象ディレクトリ
   context: src,
-  // エントリーポイント
-  entry: `${src}/index.js`,
-  // 書きだし先
-  output: {
-    // 書きだしファイル名
-    filename: 'main.js',
-    // 書きだし先フォルダ
-    path: path.resolve(__dirname, 'dist')
-  },
   module: {
     rules: [
       {
@@ -39,7 +29,7 @@ module.exports = {
     // モジュール読み込み先フォルダ
     modules: [src, 'node_modules'],
     // importを拡張子無しで読み込めるようにする
-    extensions: ['', '.js', '.jsx', '.json']
+    extensions: ['.js', '.jsx', '.json']
   },
   plugins: [
     new FriendlyErrorsWebpackPlugin(),
