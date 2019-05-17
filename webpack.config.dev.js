@@ -4,20 +4,12 @@ const merge = require('webpack-merge');
 
 const commonWebpackConfig = require('./webpack.config.js');
 
-const dist = path.resolve(__dirname, 'dist');
+const BUILD_ROOT = path.resolve(__dirname, 'dist');
 
 module.exports = merge(commonWebpackConfig, {
   devtool: 'inline-source-map',
-  entry: path.resolve(__dirname, 'src/js/index.js'),
-  output: {
-    filename: 'js/build.js',
-    publicPath: '/',
-    path: dist,
-    // ライブラリの作り方による差異を吸収
-    globalObject: 'this'
-  },
   devServer: {
-    contentBase: dist,
+    contentBase: BUILD_ROOT,
     open: true,
     hot: true,
     // 404の時indexを返す,
