@@ -15,7 +15,7 @@ node_modules
 .eslintcache
 
 # self↓
-dist
+dist/js
 # vscode
 .vscode/*
 # MacOS
