@@ -1,0 +1,13 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": ["last 2 versions", "ie >= 11"],
+        // 必要な分だけのpolyfillを自動でインポート
+        "useBuiltIns": "usage",
+        "corejs": 3
+      }
+    ]
+  ]
+}
