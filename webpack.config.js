@@ -30,6 +30,7 @@ module.exports = {
         exclude: /node_modules/,
         use: 'babel-loader'
       },
+      // eslintでコンパイル前にコードをチェック
       {
         enforce: 'pre',
         test: /\.js$/,
