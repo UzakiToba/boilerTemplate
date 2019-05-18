@@ -44,7 +44,34 @@ setting.json は
   }
 ```
 
+## 利用方法
+
+### 準備
+
+node.js が入っている環境にて、package.json が入っているフォルダに移動ののち
+
+`$ npm install`
+
+を実行すると必要なパッケージが DL されます。
+
+### 実行
+
+- `$ npm run watch`  
+  開発用モードで実行します。
+- `$ npm run build`  
+  本番用モードでファイルを dist フォルダに書きだします。
+
 ## Get Stareted 集
+
+本リポジトリにて扱っている
+
+- webpack
+- babel
+- eslint
+
+上記の 3 大要素についてさらに詳しく学ぶための参考リンクを用意しています。  
+それぞれが非常に大きな機能を有しているため、本リポジトリでもほんの少しの機能しか使用していません。  
+これらのリンクを足がかりにより深くまで学びプロフェッショナルとして羽ばたきましょう。
 
 - webpack
   - https://webpack.js.org/guides/getting-started/
