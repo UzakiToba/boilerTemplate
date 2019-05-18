@@ -43,3 +43,12 @@ setting.json は
     ]
   }
 ```
+
+## Get Stareted 集
+
+- webpack
+  - https://webpack.js.org/guides/getting-started/
+- babel
+  - https://babeljs.io/setup#installation
+- eslint
+  - https://eslint.org/docs/user-guide/getting-started
