@@ -18,6 +18,8 @@ branch ごとに各環境別の最小構成を作成しています。
 - webpack
 - babel
 - eslint
+- React
+- TypeScript
 
 ## VS Code 設定
 
@@ -82,8 +84,10 @@ setting.json は
 - webpack
 - babel
 - eslint
+- React
+- TypeScript
 
-上記の 3 大要素についてさらに詳しく学ぶための参考リンクを用意しています。  
+上記の 5 大要素についてさらに詳しく学ぶための参考リンクを用意しています。  
 それぞれが非常に大きな機能を有しているため、本リポジトリでもほんの少しの機能しか使用していません。  
 これらのリンクを足がかりにより深くまで学びプロフェッショナルとして羽ばたきましょう。
 
@@ -93,3 +97,7 @@ setting.json は
   - https://babeljs.io/setup#installation
 - eslint
   - https://eslint.org/docs/user-guide/getting-started
+- React
+  - https://www.typescriptlang.org/docs/handbook/react-&-webpack.html
+- TypeScript
+  - https://www.typescriptlang.org/docs/handbook/react-&-webpack.html
