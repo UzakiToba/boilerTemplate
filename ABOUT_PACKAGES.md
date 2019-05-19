@@ -23,13 +23,19 @@ webpack は以下に示すパッケージを使用し、javascript 等のソー�
   @babel/polyfill でカバーしきれないコードをサポートする。
 - **eslint**  
   JavaScript のエラー、非効率な記法等の警告を行い、ソースコードの品質を保つ。
+- **eslint-config-prettier**  
+  prettier と競合する eslint のルールを無効にする。
 - **eslint-loader**
   コンパイル時にエラーをチェックし、ターミナルにエラーログを表示する。  
   エラーがある時はコンパイルが失敗する。
 - **eslint-plugin-import**  
   import 文に関わるルールを拡張する。
+- **eslint-plugin-prettier**  
+  prettier を eslint で実行するようにする。
 - **friendly-errors-webpack-plugin**  
   ターミナルに表示されるエラー・ログ表示を見やすくする。
+- **prettier**  
+  コードフォーマッター
 - **webpack**  
   webpack 本体
 - **webpack-cli**  
