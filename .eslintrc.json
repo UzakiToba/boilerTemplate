@@ -5,13 +5,19 @@
     "es6": true,
     "node": true
   },
-  "plugins": [],
+  "plugins": ["prettier"],
   "parser": "babel-eslint",
-  "extends": ["eslint:recommended"],
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
   "parserOptions": {
     "sourceType": "module"
   },
   "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true
+      }
+    ],
     "semi": "error",
     "no-undef": "off"
   }
