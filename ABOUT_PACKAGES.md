@@ -1,9 +1,9 @@
-## 各パッケージについて
+# 各パッケージについて
 
 package.json に記述されているパッケージについての解説です。  
 webpack は以下に示すパッケージを使用し、javascript 等のソースを加工、編集して書き出す機能を使用します。
 
-### devDependencies
+## devDependencies
 
 - **@babel/core**  
   babel7 の本体  
@@ -13,6 +13,21 @@ webpack は以下に示すパッケージを使用し、javascript 等のソー�
 - **@babel/preset-env**  
   babel7 用 必要な Babel プラグインを自動で決定するライブラリ  
   JavaScript の新しくアップデートされた機能は babel に手動で追加しなければいけないが、これを導入し正しく設定すれば自動で追加される。
+- **@babel/preset-react**  
+  babel7 用 react 用 babel プラグインまとめ
+- **@types/**  
+  typescript で使用する型定義ファイル類
+  - **@types/history"**  
+    履歴の型定義ファイル
+  - **@types/node**  
+    node.js の型定義ファイル
+  - **@types/react**
+  - **@types/react-dom**  
+    React の型定義ファイル
+  - **@types/webpack-env**  
+    w​​ebpack の型定義ファイル
+- **@typescript-eslint/eslint-plugin**  
+  ts+eslint 用プラグイン
 - **babel-eslint**  
   eslint のエラーチェックにて stage n (まだ標準化していないが、babel で使用できる新しい構文)の書き方を正しく解析できるようにする。
 - **babel-loader**  
@@ -23,9 +38,17 @@ webpack は以下に示すパッケージを使用し、javascript 等のソー�
   @babel/polyfill でカバーしきれないコードをサポートする。
 - **eslint**  
   JavaScript のエラー、非効率な記法等の警告を行い、ソースコードの品質を保つ。
+- **eslint-import-resolver-typescript**  
+  .ts ファイルの import エラーを回避する
 - **eslint-loader**
   コンパイル時にエラーをチェックし、ターミナルにエラーログを表示する。  
   エラーがある時はコンパイルが失敗する。
+- **eslint-plugin-import**  
+  import 文に関わるルールを拡張する。
+- **eslint-plugin-jsx-a11y**  
+  React で使用する jsx に関わるルールを拡張する。
+- **eslint-plugin-reac**  
+  React に関わるルールを拡張する
 - **friendly-errors-webpack-plugin**  
   ターミナルに表示されるエラー・ログ表示を見やすくする。
 - **webpack**  
@@ -36,3 +59,9 @@ webpack は以下に示すパッケージを使用し、javascript 等のソー�
   開発時に使用するローカルサーバーを作成するための webpack プラグイン。
 - **webpack-merge**  
   分割された webpack の設定を使用時にマージする。
+
+## dependencies
+
+- **react**
+- **react-dom**  
+  react の本体

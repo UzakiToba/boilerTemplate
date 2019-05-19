@@ -56,6 +56,11 @@ setting.json は
   }
 ```
 
+## .eslintrc の設定について
+
+こちらをご参照ください。  
+[ABOUT_ESLINTRC](/ABOUT_ESLINTRC.md)
+
 ## 利用方法
 
 ### 準備
