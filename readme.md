@@ -3,7 +3,17 @@
 webpack を使用したモダンフロント開発用の最小構成のボイラーテンプレートです。  
 ここから各要件に合わせて必要なパッケージを追加して環境を作製していってください。
 
-## パッケージ
+## branch
+
+branch ごとに各環境別の最小構成を作成しています。  
+要件によって使い分けてください。
+
+| branchName      | 説明                        |
+| :-------------- | :-------------------------- |
+| develop         | 最小構成                    |
+| reactTypescript | React/TypeScript の最小構成 |
+
+## develop ブランチで使用している主なパッケージ
 
 - webpack
 - babel
@@ -48,11 +58,10 @@ setting.json は
 
 ### 準備
 
-node.js が入っている環境にて、package.json が入っているフォルダに移動ののち
-
-`$ npm install`
-
-を実行すると必要なパッケージが DL されます。
+1. node.js / git が入っている環境にて、本ブランチをクローン
+2. package.json が入っているフォルダに移動ののち  
+   `$ npm install`  
+   を実行すると必要なパッケージが DL されます。
 
 ### 実行
 
@@ -60,6 +69,11 @@ node.js が入っている環境にて、package.json が入っているフォ�
   開発用モードで実行します。
 - `$ npm run build`  
   本番用モードでファイルを dist フォルダに書きだします。
+
+### 使用パッケージについて
+
+こちらをご参照ください。  
+[ABOUT_PACKAGES](/ABOUT_PACKAGES.md)
 
 ## Get Stareted 集
 
