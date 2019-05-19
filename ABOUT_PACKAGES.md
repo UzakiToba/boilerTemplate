@@ -38,6 +38,8 @@ webpack は以下に示すパッケージを使用し、javascript 等のソー�
   @babel/polyfill でカバーしきれないコードをサポートする。
 - **eslint**  
   JavaScript のエラー、非効率な記法等の警告を行い、ソースコードの品質を保つ。
+- **eslint-config-prettier**
+  prettier と競合する eslint のルールを無効にする。
 - **eslint-import-resolver-typescript**  
   .ts ファイルの import エラーを回避する
 - **eslint-loader**
@@ -47,10 +49,20 @@ webpack は以下に示すパッケージを使用し、javascript 等のソー�
   import 文に関わるルールを拡張する。
 - **eslint-plugin-jsx-a11y**  
   React で使用する jsx に関わるルールを拡張する。
+- **eslint-plugin-prettier**  
+  prettier を eslint で実行するようにする。
 - **eslint-plugin-reac**  
   React に関わるルールを拡張する
 - **friendly-errors-webpack-plugin**  
   ターミナルに表示されるエラー・ログ表示を見やすくする。
+- **prettier**  
+  コードフォーマッター
+- **ts-loader**  
+  ts ファイルを webpack で js に変換する。
+- **typescript**  
+  typescript 本体
+- **typescript-eslint-parser**
+  typescript の型チェックを eslint で実行できるようにする。
 - **webpack**  
   webpack 本体
 - **webpack-cli**  
