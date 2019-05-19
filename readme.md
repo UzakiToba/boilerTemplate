@@ -18,8 +18,9 @@ branch ごとに各環境別の最小構成を作成しています。
 - webpack
 - babel
 - eslint
-- React
+- prettier
 - TypeScript
+- React
 
 ## VS Code 設定
 
@@ -33,8 +34,9 @@ setting.json は
 
 ### setting.json
 
-```
-  {
+```{
+    "prettier.eslintIntegration": true,
+    "prettier.singleQuote": true,
     "eslint.autoFixOnSave": true,
     "eslint.enable": true,
     "eslint.validate": [
@@ -84,25 +86,13 @@ setting.json は
 
 ## Get Stareted 集
 
-本リポジトリにて扱っている
-
-- webpack
-- babel
-- eslint
-- React
-- TypeScript
-
-上記の 5 大要素についてさらに詳しく学ぶための参考リンクを用意しています。  
+本リポジトリにて扱っている 5 大要素についてさらに詳しく学ぶための参考リンクを用意しています。  
 それぞれが非常に大きな機能を有しているため、本リポジトリでもほんの少しの機能しか使用していません。  
 これらのリンクを足がかりにより深くまで学びプロフェッショナルとして羽ばたきましょう。
 
-- webpack
-  - https://webpack.js.org/guides/getting-started/
-- babel
-  - https://babeljs.io/setup#installation
-- eslint
-  - https://eslint.org/docs/user-guide/getting-started
-- React
-  - https://www.typescriptlang.org/docs/handbook/react-&-webpack.html
-- TypeScript
-  - https://www.typescriptlang.org/docs/handbook/react-&-webpack.html
+- [webpack](https://webpack.js.org/guides/getting-started/)
+- [babel](https://babeljs.io/setup#installation)
+- [eslint](https://eslint.org/docs/user-guide/getting-started)
+- [prettier](https://prettier.io/docs/en/install.html)
+- [TypeScript](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html)
+- [React](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html)
