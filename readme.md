@@ -70,7 +70,7 @@ setting.json は
 - `$ npm run build`  
   本番用モードでファイルを dist フォルダに書きだします。
 
-### 使用パッケージについて
+## 使用パッケージについて
 
 こちらをご参照ください。  
 [ABOUT_PACKAGES](/ABOUT_PACKAGES.md)
