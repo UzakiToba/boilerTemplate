@@ -25,7 +25,9 @@ module.exports = merge(commonWebpackConfig, {
     // IPを指定
     host: '0.0.0.0',
     // ポートを指定
-    port: 3000
+    port: 3000,
+    // ターミナルのログ表示を整理する(FriendlyErrorsWebpackPluginが必要)
+    quiet: true
   },
   plugins: [
     // HMR有効時に必要*2
