@@ -17,11 +17,5 @@
   ES5 以降の JavaScript への対応の設定
   - `"sourceType": "module"`  
     Modules に対応
-  - **ecmaFeatures**  
-    ECMAScript に含まれない使用の設定
-    - `"jsx": true` - JSX 構文に対応する
-- **settings**
-  - **react**
-    - `"version": "detect"` - インストールされている React バージョンを自動的に選びます。
 - **rules**  
   ルールを記述する。

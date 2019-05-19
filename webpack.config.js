@@ -16,7 +16,7 @@ module.exports = {
   context: SRC_ROOT,
   // 読み込みファイル
   entry: {
-    'js/bandle': path.resolve(SRC_ROOT, 'ts/index.tsx')
+    'js/bandle': path.resolve(SRC_ROOT, 'js/index.js')
   },
   // 書きだし設定
   output: {
@@ -31,21 +31,16 @@ module.exports = {
     rules: [
       {
         // 読み込みファイルの正規表現
-        test: /\.*(js|jsx)$/,
+        test: /\.*js$/,
         // 除外ファイル
         exclude: /node_modules/,
         use: 'babel-loader'
-      },
-      {
-        test: /\.*(ts|tsx)$/,
-        exclude: /node_modules/,
-        use: 'ts-loader'
       },
       // eslintでコンパイル前にコードをチェック
       {
         // 事前実行
         enforce: 'pre',
-        test: /\.(ts|tsx|js|jsx)$/,
+        test: /\.js$/,
         exclude: /node_modules/,
         use: 'eslint-loader'
       }
@@ -55,7 +50,7 @@ module.exports = {
     // モジュール読み込み先フォルダ
     modules: [SRC_ROOT, 'node_modules'],
     // importを拡張子無しで読み込めるようにする
-    extensions: ['.ts', '.tsx', '.js', '.jsx', '.json']
+    extensions: ['.js', '.jsx', '.json']
   },
   plugins: [
     // エラー表示を綺麗に

@@ -1,6 +1,6 @@
-# React/typescript 最小構成ボイラーテンプレート
+# 最小構成ボイラーテンプレート
 
-React/typescript を使用したモダンフロント開発用の最小構成のボイラーテンプレートです。  
+webpack を使用したモダンフロント開発用の最小構成のボイラーテンプレートです。
 ここから各要件に合わせて必要なパッケージを追加して環境を作製していってください。
 
 ## branch
@@ -18,8 +18,6 @@ branch ごとに各環境別の最小構成を作成しています。
 - webpack
 - babel
 - eslint
-- React
-- TypeScript
 
 ## VS Code 設定
 
@@ -89,8 +87,6 @@ setting.json は
 - webpack
 - babel
 - eslint
-- React
-- TypeScript
 
 上記の 5 大要素についてさらに詳しく学ぶための参考リンクを用意しています。  
 それぞれが非常に大きな機能を有しているため、本リポジトリでもほんの少しの機能しか使用していません。  
@@ -102,7 +98,3 @@ setting.json は
   - https://babeljs.io/setup#installation
 - eslint
   - https://eslint.org/docs/user-guide/getting-started
-- React
-  - https://www.typescriptlang.org/docs/handbook/react-&-webpack.html
-- TypeScript
-  - https://www.typescriptlang.org/docs/handbook/react-&-webpack.html

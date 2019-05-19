@@ -5,23 +5,11 @@
     "es6": true,
     "node": true
   },
-  "plugins": ["@typescript-eslint", "react"],
-  "parser": "typescript-eslint-parser",
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:@typescript-eslint/recommended"
-  ],
+  "plugins": [],
+  "parser": "babel-eslint",
+  "extends": ["eslint:recommended"],
   "parserOptions": {
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "jsx": true
-    }
-  },
-  "settings": {
-    "react": {
-      "version": "detect"
-    }
+    "sourceType": "module"
   },
   "rules": {
     "semi": "error",
